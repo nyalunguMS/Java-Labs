@@ -44,6 +44,9 @@ public class Main {
         login.password = "12345";
         login.checkLogin();
 
+        StudentMarks marks = new StudentMarks();
+        marks.displayMarks();
+
     }
 
 
