@@ -27,11 +27,17 @@ public class Main {
 
         PassOrFail status = new PassOrFail();
         status.mark = 75;
+        status.output();
         status.display();
 
         GradeCalculator mark = new GradeCalculator();
         mark.mark = 82;
+        status.output();
         mark.display();
+
+        NumberAnalysis number = new NumberAnalysis();
+        number.number = 3;
+        number.analyzeNumber();
 
 
     }
