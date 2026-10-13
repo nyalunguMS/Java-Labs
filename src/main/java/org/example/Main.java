@@ -47,6 +47,9 @@ public class Main {
         StudentMarks marks = new StudentMarks();
         marks.displayMarks();
 
+        ArrayStats stats = new ArrayStats();
+        stats.calculateStats();
+
     }
 
 
