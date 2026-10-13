@@ -39,6 +39,10 @@ public class Main {
         number.number = 3;
         number.analyzeNumber();
 
+        LoginCheck login = new LoginCheck();
+        login.username = "MMM";
+        login.password = "12345";
+        login.checkLogin();
 
     }
 
