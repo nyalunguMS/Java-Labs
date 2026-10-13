@@ -29,6 +29,10 @@ public class Main {
         status.mark = 75;
         status.display();
 
+        GradeCalculator mark = new GradeCalculator();
+        mark.mark = 82;
+        mark.display();
+
 
     }
 
