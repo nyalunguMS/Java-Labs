@@ -1,10 +1,17 @@
 package org.example;
 
 public class TemperatureConverter {
-    static void main(){
-        double celsius = 12;
+
+        double celsius ;
         double fahrenheit;
-        fahrenheit = (celsius * 9 / 5) + 32;
-        System.out.println(celsius+" in Celsius equals "+fahrenheit+" in fahrenheit.");
+
+    public double getFahrenheit() {
+        return fahrenheit = (celsius * 9 / 5) + 32;
     }
+
+    public void display(){
+        System.out.println(celsius+" in Celsius equals "+getFahrenheit()+" in fahrenheit.");
+    }
+
+
 }
