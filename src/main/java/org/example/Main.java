@@ -50,6 +50,9 @@ public class Main {
         ArrayStats stats = new ArrayStats();
         stats.calculateStats();
 
+        ArraySearch search = new ArraySearch();
+        search.searchArray();
+
     }
 
 
