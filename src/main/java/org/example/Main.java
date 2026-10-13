@@ -25,6 +25,10 @@ public class Main {
         value.getFahrenheit();
         value.display();
 
+        PassOrFail status = new PassOrFail();
+        status.mark = 75;
+        status.display();
+
 
     }
 
