@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EvenOddArray {
-    int[] num = {12,23,10,11,25};
+    int[] num = {0,12,23,10,11,25};
     List<Integer> odd = new ArrayList<>();
     List<Integer> even = new ArrayList<>();
 
