@@ -5,19 +5,25 @@ import java.util.List;
 
 public class EvenOddArray {
     int[] num = {0,12,23,10,11,25};
-    List<Integer> odd = new ArrayList<>();
-    List<Integer> even = new ArrayList<>();
+    int odd = 0;
+    int even = 0;
+    List<Integer> oddList = new ArrayList<>();
+    List<Integer> evenList = new ArrayList<>();
 
     void displayValues(){
         for (int i = 0; i < num.length; i++) {
             if(num[i]%2 == 0){
-                even.add(num[i]);
+                evenList.add(num[i]);
+                even++;
             }else{
-                odd.add(num[i]);
+                oddList.add(num[i]);
+                odd++;
             }
         }
-        System.out.println("Even values: "+ even);
-        System.out.println("Odd values: "+ odd);
+        System.out.println("Number of even values: "+even);
+        System.out.println("Number of odd values: "+even);
+        System.out.println("Even values: "+ evenList);
+        System.out.println("Odd values: "+ oddList);
     }
 
 
