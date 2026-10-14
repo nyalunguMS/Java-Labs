@@ -75,6 +75,20 @@ public class Main {
         Student stu2 = new Student("Manc","21342121",40.0);
         stu.displayDetails();
         stu2.displayDetails();
+        System.out.println("======================================");
+
+        BankAccount account = new BankAccount("Mancoba","12345343",5000);
+        account.deposit(500);
+        account.deposit(-200);
+        account.getBalance();
+        account.withdraw(250);
+
+        account.getBalance();
+        account.withdraw(7000);
+        account.getBalance();
+        //account.withdraw(-250);
+
+
 
 
     }
