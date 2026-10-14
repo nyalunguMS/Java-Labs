@@ -71,6 +71,12 @@ public class Main {
         num.displayValues();
         System.out.println("======================================");
 
+        Student stu = new Student("Mancoba","212121",59.0);
+        Student stu2 = new Student("Manc","21342121",40.0);
+        stu.displayDetails();
+        stu2.displayDetails();
+
+
     }
 
 
