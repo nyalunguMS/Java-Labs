@@ -53,6 +53,9 @@ public class Main {
         ArraySearch search = new ArraySearch();
         search.searchArray();
 
+        EvenOddArray numbers = new EvenOddArray();
+        numbers.displayValues();
+
     }
 
 
