@@ -71,7 +71,6 @@ public class Main {
         num.displayValues();
         System.out.println("======================================");
 
-
     }
 
 
