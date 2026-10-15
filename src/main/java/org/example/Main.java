@@ -86,7 +86,19 @@ public class Main {
         account.getBalance();
         account.withdraw(7000);
         account.getBalance();
-        //account.withdraw(-250);
+        System.out.println("======================================");
+
+        Product product = new Product(001,"Phone",11600,10);
+        product.displayDetails();
+        product.addStock(5);
+        product.displayDetails();
+        product.sellProduct(3);
+        product.displayDetails();
+        System.out.println("======================================");
+
+
+
+
 
 
 
