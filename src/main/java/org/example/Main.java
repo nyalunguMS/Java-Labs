@@ -96,7 +96,12 @@ public class Main {
         product.displayDetails();
         System.out.println("======================================");
 
+        Rectangle rectangle1 = new Rectangle(12,10);
+        Rectangle rectangle2 = new Rectangle(7,5);
 
+        rectangle1.displayDetails();
+        rectangle2.displayDetails();
+        System.out.println("======================================");
 
 
 
